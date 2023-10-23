@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1698053954">
+  <project timestamp="1698053954">
+    <file name="E:\xampp\htdocs\test\php-unit\src\Cart.php">
+      <class name="Unit\Cart" namespace="global">
+        <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+      </class>
+      <line num="9" type="method" name="addItem" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="11" type="stmt" count="2"/>
+      <line num="14" type="method" name="getItems" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="16" type="stmt" count="3"/>
+      <line num="19" type="method" name="getCount" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="24" type="method" name="getCost" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <metrics loc="28" ncloc="28" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+    </file>
+    <file name="E:\xampp\htdocs\test\php-unit\src\SetData.php">
+      <class name="Unit\SetData" namespace="global">
+        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="15" coveredelements="15"/>
+      </class>
+      <line num="7" type="method" name="set" visibility="public" complexity="4" crap="4" count="3"/>
+      <line num="9" type="stmt" count="3"/>
+      <line num="10" type="stmt" count="3"/>
+      <line num="11" type="stmt" count="3"/>
+      <line num="12" type="stmt" count="3"/>
+      <line num="14" type="stmt" count="3"/>
+      <line num="15" type="stmt" count="3"/>
+      <line num="16" type="stmt" count="3"/>
+      <line num="17" type="stmt" count="3"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="19" type="stmt" count="2"/>
+      <line num="21" type="stmt" count="3"/>
+      <line num="22" type="stmt" count="3"/>
+      <line num="23" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="3"/>
+      <metrics loc="28" ncloc="28" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="15" coveredelements="15"/>
+    </file>
+    <file name="E:\xampp\htdocs\test\php-unit\src\Storage.php">
+      <class name="Unit\Storage" namespace="global">
+        <metrics complexity="14" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="28" coveredelements="0"/>
+      </class>
+      <line num="7" type="method" name="get" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="12" type="method" name="indexOf" visibility="public" complexity="6" crap="42" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="38" type="method" name="slice" visibility="public" complexity="6" crap="42" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="60" type="stmt" count="0"/>
+      <metrics loc="63" ncloc="63" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="28" coveredelements="0"/>
+    </file>
+    <file name="E:\xampp\htdocs\test\php-unit\src\Validator.php">
+      <class name="Unit\Validator" namespace="global">
+        <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </class>
+      <line num="9" type="method" name="addCheck" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="12" type="stmt" count="3"/>
+      <line num="15" type="method" name="isValid" visibility="public" complexity="3" crap="3" count="4"/>
+      <line num="18" type="stmt" count="4"/>
+      <line num="20" type="stmt" count="3"/>
+      <line num="21" type="stmt" count="2"/>
+      <line num="24" type="stmt" count="2"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <metrics loc="37" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+    </file>
+    <metrics files="4" loc="156" ncloc="151" classes="4" methods="10" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="25" elements="60" coveredelements="32"/>
+  </project>
+</coverage>
