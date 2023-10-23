@@ -1,0 +1,25 @@
+{
+  "name": "project/php-package",
+  "bin": ["bin/php-package"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Project for test"
+    }
+  ],
+  "description": "php-unit",
+  "license": "MIT",
+  "scripts": {
+    "test": "phpunit tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unit\\": "src",
+      "Unit\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "psy/psysh": "@stable",
+    "phpunit/phpunit": "^10.4"
+  }
+}
