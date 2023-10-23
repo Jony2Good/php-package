@@ -8,12 +8,13 @@ use Unit\Storage;
 
 class FillableTest extends TestCase
 {
-  private Fillable $object;
+    private Fillable $object;
 
     protected function setUp(): void
     {
         $this->object = new Fillable();
     }
+
     public function testFillArrayWithSingleValue()
     {
         $input = [1, 2, 3, 4, 5];
@@ -67,6 +68,17 @@ class FillableTest extends TestCase
         $expected = [1, 2, 3, 4, 5];
 
         $result = $this->object->fill($input, $value, $start, $end);
+        $this->assertEquals($expected, $result);
+    }
+
+    public function testFillArrayWithTheSameArrayRange()
+    {
+        $input = [1, 2, 3, 4, 5];
+        $value = 10;
+        $start = 5;
+        $expected = [1, 2, 3, 4, 5];
+
+        $result = $this->object->fill($input, $value, $start);
         $this->assertEquals($expected, $result);
     }
 }
