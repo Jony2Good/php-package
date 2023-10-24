@@ -5,13 +5,13 @@ on:
       - master
 jobs:
   test:
-    runs-on: windows
+    runs-on: ubuntu-latest
     steps:
     - name: Print msg
       run: echo "We starting own workflow"
 
   new-job:
-    runs-on: windows
+    runs-on: ubuntu-latest
     steps:
     - name: Print new job
       run: echo "We make some goog job"
