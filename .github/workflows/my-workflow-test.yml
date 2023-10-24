@@ -1,0 +1,17 @@
+name: My-workflow-test
+on:
+  push:
+    branches: 
+      - master
+jobs:
+  test:
+    runs-on: windows
+    steps:
+    - name: Print msg
+      run: echo "We starting own workflow"
+
+  new-job:
+    runs-on: windows
+    steps:
+    - name: Print new job
+      run: echo "We make some goog job"
