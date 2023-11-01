@@ -18,6 +18,9 @@
       "Unit\\Tests\\": "tests"
     }
   },
+  "require": {
+    "symfony/yaml": "^5.2"
+  },
   "require-dev": {
     "psy/psysh": "@stable",
     "phpunit/phpunit": "^10.4"
