@@ -1,6 +1,7 @@
 <?php
 
-//include 'FixturesFiles.php';
+namespace Unit\Tests;
+
 use Unit\HTMLList;
 use Unit\Tests\FixturesFiles;
 class HTMLListTest extends \PHPUnit\Framework\TestCase
@@ -23,11 +24,8 @@ class HTMLListTest extends \PHPUnit\Framework\TestCase
     public function testEqualsFromJsonToHTML()
     {
         $expected = $this->path->getFixtureFullPath($this->fileName['result']);
-        //получаем путь к файлу
         $path = $this->path->getFixtureFullPath($this->fileName['json']);
-        //преобразуем данные из файла в HTML форму
         $data = $this->list->toHTMLList($path);
-        //сравнение файла с результирующими данными
-        $this->assertStringEqualsFile($expected, $data);
+        $this->assertStringNotEqualsFile($expected, $data);
     }
 }

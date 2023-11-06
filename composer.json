@@ -19,10 +19,13 @@
     }
   },
   "require": {
-    "symfony/yaml": "^5.2"
+    "symfony/yaml": "^5.2",
+    "fakerphp/faker": "^1.13",
+    "ext-curl": "*"
   },
   "require-dev": {
     "psy/psysh": "@stable",
-    "phpunit/phpunit": "^10.4"
+    "phpunit/phpunit": "^10.4",
+    "mikey179/vfsstream": "^1.6"
   }
 }
